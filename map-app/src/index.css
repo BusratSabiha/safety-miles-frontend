@@ -1,0 +1,51 @@
+
+#welcome {
+  background-color: #007bff; /* Header background color */
+  color: #fff; /* Text color */
+  padding: 10px; /* Padding around the content inside the header */
+  text-align: center; /* Center-align the content */
+  border-bottom: 2px solid #0056b3; /* Bottom border for a visual separation */
+}
+
+#welcome h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 30px; /* Font size of the heading */
+  font-weight: bold; /* Bold font weight */
+  text-transform: uppercase; /* Convert text to uppercase */
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+#map {
+
+  margin-top: 20px;
+  height: 700px;
+}
+
+
+.text-below-marker {
+  min-width: 50px;
+  
+  left: -50px;
+  text-align: center;
+  min-height: 1.5em;
+  background-color: brown;
+  color: white;
+}
+
+footer{
+  position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+  
+}
+
+footer a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+}
